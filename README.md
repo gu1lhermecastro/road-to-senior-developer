@@ -13,7 +13,7 @@
 | Conhecimento do Ecossistema | Bing Chat: "Quais as melhores práticas atuais para configurar Health Checks em uma API .NET 8?" |
 
 ## Aviso Crítico: O Perigo da Dependência
-Tornar-se Sênior não é só saber como fazer, mas saber por que fazer. A IA é uma ferramenta, não um substituto para o seu julgamento.
+Tornar-se Sênior não é só saber **_como fazer_**, mas saber **_por que fazer_**. A IA é uma ferramenta, não um substituto para o seu julgamento.
 * **Não Copie Cego**: Sempre entenda o código que a IA gerou. Pergunte por que ela sugeriu aquela solução.
 * **Valide as Respostas**: A IA alucina e comete erros, especialmente em assuntos muito novos ou complexos. Sempre confirme com a documentação oficial.
 * **Desenvolva seu Critério**: A habilidade de um Sênior é julgar entre várias soluções boas. Use a IA para gerar opções, mas a decisão final deve ser sua, baseada no contexto do negócio.
