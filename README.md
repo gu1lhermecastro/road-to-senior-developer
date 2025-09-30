@@ -1,7 +1,7 @@
-# road-to-senior-developer
+# Caminho para Desenvolvedor Sênior
 
 
-## Tabela sugestiva para uso de IA
+## Tabela sugestiva para uso de IA:
 
 | Habilidade Sênior  | Como a IA Pode Ajudar |
 | ------------- |:-------------:|
