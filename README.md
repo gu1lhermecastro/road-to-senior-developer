@@ -10,4 +10,6 @@
 
 [2. O que é **Boxing** e **Unboxing**?](docs/fundamentos-de-csharp-e-dotnet/02-O-que-e-Boxing-e-Unboxing.md)
 
+[3. Explique a diferença entre `struct` e `class`](docs/fundamentos-de-csharp-e-dotnet/03-Explique-a-diferenca-entre-struct-e-class.md)
+
 [19. Diferença entre `==` e `.Equals()`](docs/fundamentos-de-csharp-e-dotnet/19-diferenca-entre-operator-equal-e-method-equals.md)
