@@ -36,5 +36,6 @@ A nível de código, quando você passa uma variável **Value Type** para um mé
 > Já as variáveis **Reference Types** (ex: `class`, `string`, `object`) possuem uma referência para seus valores, que são alocados na memória Heap.
 A nível de código, quando você passa uma variável **Reference Type** para múltiplos métodos, todos os escopos estarão observando a mesma instância. Caso uma alteração seja feita, todos os métodos estarão lidando com o objeto já alterado.
 
-[## 5. O que é boxing e unboxing?](docs/fundamentos-de-csharp-e-dotnet/05-O-que-e-Boxing-e-Unboxing.md)
+[## 5. O que é **Boxing** e **Unboxing**?](docs/fundamentos-de-csharp-e-dotnet/05-O-que-e-Boxing-e-Unboxing.md)
+
 [## 19. Diferença entre `==` e `.Equals()`](docs/fundamentos-de-csharp-e-dotnet/19-diferenca-entre-operator-equal-e-method-equals.md)
