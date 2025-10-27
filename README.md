@@ -12,6 +12,6 @@
 
 [3. Explique a diferença entre `struct` e `class`](docs/fundamentos-de-csharp-e-dotnet/03-Explique-a-diferenca-entre-struct-e-class.md)
 
-[4. O que é o garbage collector e como ele funciona?](docs/fundamentos-de-csharp-e-dotnet/04-O-que-e-o-garbage-collector-e-como-ele-funciona.md)
+[4. O que é o _**garbage collector**_ e como ele funciona?](docs/fundamentos-de-csharp-e-dotnet/04-O-que-e-o-garbage-collector-e-como-ele-funciona.md)
 
 [19. Diferença entre `==` e `.Equals()`](docs/fundamentos-de-csharp-e-dotnet/19-diferenca-entre-operator-equal-e-method-equals.md)
