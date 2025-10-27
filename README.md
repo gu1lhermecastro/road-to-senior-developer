@@ -35,3 +35,38 @@ A nível de código, quando você passa uma variável **Value Type** para um mé
 
 > Já as variáveis **Reference Types** (ex: `class`, `string`, `object`) possuem uma referência para seus valores, que são alocados na memória Heap.
 A nível de código, quando você passa uma variável **Reference Type** para múltiplos métodos, todos os escopos estarão observando a mesma instância. Caso uma alteração seja feita, todos os métodos estarão lidando com o objeto já alterado.
+
+## 5. O que é boxing e unboxing?
+
+
+## 19. Diferença entre == e .Equals()
+Entender a diferença entre `==` e `.Equals()` é fundamental em C#, pois ela muda completamente dependendo se você está lidando com **Value Types** ou **Reference Types**:
+
+ 1. **Value Types** (ex: `int`, `double`, `struct`)
+Para tipos de valor, ambos == e .Equals() comparam o conteúdo, porque structs e tipos primitivos implementam Equals() e sobrecarga de == para comparar valores.
+Exemplo:
+```csharp
+int a = 10;
+int b = 10;
+
+Console.WriteLine(a == b);       // True
+Console.WriteLine(a.Equals(b));  // True
+```
+➡️ Ambos retornam `True`, pois comparam o valor numérico.
+
+ 2. **Reference Types** (ex: `class`, `object`)
+Para classes, o comportamento depende se o tipo sobrescreve ou não Equals() ou o operador ==.
+
+Exemplo:
+```csharp
+class Pessoa
+{
+    public string Nome;
+}
+
+Pessoa p1 = new Pessoa { Nome = "Guilherme" };
+Pessoa p2 = new Pessoa { Nome = "Guilherme" };
+
+Console.WriteLine(p1 == p2);       // False
+Console.WriteLine(p1.Equals(p2));  // False
+```
