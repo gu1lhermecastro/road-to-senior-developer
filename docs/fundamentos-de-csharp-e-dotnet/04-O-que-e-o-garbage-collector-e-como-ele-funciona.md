@@ -72,9 +72,10 @@ As _roots_ são:
 O GC percorre todas essas referências e **marca os objetos acessíveis**.
 Tudo que **não puder ser alcançado** é considerado “lixo” (garbage) e é removido.
 
-⚠️ Importante: o GC não é mágica
 
-Mesmo com GC, você ainda pode causar problemas, por exemplo:
-- Guardar referências desnecessárias em listas ou caches → impede a coleta.
-- Criar muitos objetos rapidamente → aumenta a frequência do GC.
-- Manter objetos grandes vivos sem necessidade → cresce a Heap e aumenta pausas.
+> [!WARNING]
+> Importante: o GC não é mágica
+> Mesmo com GC, você ainda pode causar problemas, por exemplo:
+> - Guardar referências desnecessárias em listas ou caches → impede a coleta.
+> - Criar muitos objetos rapidamente → aumenta a frequência do GC.
+> - Manter objetos grandes vivos sem necessidade → cresce a Heap e aumenta pausas.
