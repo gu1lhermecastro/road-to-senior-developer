@@ -1,4 +1,4 @@
-## 19. Diferença entre == e .Equals()
+## 19. Diferença entre `==` e `.Equals()`
 Entender a diferença entre `==` e `.Equals()` é fundamental em C#, pois ela muda completamente dependendo se você está lidando com **Value Types** ou **Reference Types**:
 
  1. **Value Types** (ex: `int`, `double`, `struct`)

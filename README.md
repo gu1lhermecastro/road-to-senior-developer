@@ -39,4 +39,4 @@ A nível de código, quando você passa uma variável **Reference Type** para m�
 ## 5. O que é boxing e unboxing?
 
 
-[## 19. Diferença entre == e .Equals()](docs\fundamentos-de-csharp-e-dotnet\19-diferenca-entre-operator-equal-e-method-equals.md)
+[## 19. Diferença entre `==` e `.Equals()`](docs\fundamentos-de-csharp-e-dotnet\19-diferenca-entre-operator-equal-e-method-equals.md)
