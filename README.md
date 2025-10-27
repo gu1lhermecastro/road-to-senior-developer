@@ -28,7 +28,7 @@ Use essas ferramentas de forma ativa e questionadora, e você acelerará dramati
 
 ## 1. Fundamentos de C# e .NET
 
-[1. Qual a diferença entre _"Value Types"_ e _"Reference Types"_ em C#?](docs/fundamentos-de-csharp-e-dotnet/01-qual-a-diferença-entre-Value-Types-e-Reference-Types.md)
+[1. Qual a diferença entre _**Value Types**_ e _**Reference Types**_ em C#?](docs/fundamentos-de-csharp-e-dotnet/01-qual-a-diferença-entre-Value-Types-e-Reference-Types.md)
 
 [2. O que é **Boxing** e **Unboxing**?](docs/fundamentos-de-csharp-e-dotnet/02-O-que-e-Boxing-e-Unboxing.md)
 
