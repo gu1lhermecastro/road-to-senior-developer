@@ -74,7 +74,7 @@ Tudo que **não puder ser alcançado** é considerado “lixo” (garbage) e é 
 
 
 > [!WARNING]
-> Importante: o GC não é mágica
+> **IMPORTANTE**: o GC não é mágica
 > Mesmo com GC, você ainda pode causar problemas, por exemplo:
 > - Guardar referências desnecessárias em listas ou caches → impede a coleta.
 > - Criar muitos objetos rapidamente → aumenta a frequência do GC.
