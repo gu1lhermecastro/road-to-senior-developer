@@ -28,14 +28,8 @@ Use essas ferramentas de forma ativa e questionadora, e você acelerará dramati
 
 ## 1. Fundamentos de C# e .NET
 
-### 1.1 Qual a diferença entre _"Value Types"_ e _"Reference Types"_ em C#?
-> Sobre **Value Types**, basicamente a diferença está no tipo de alocação em memória.
-Quando falamos de **Value Types**, estamos nos referindo aos tipos primitivos (ex: `int`, `bool`, `struct`); esses são alocados na memória Stack.
-A nível de código, quando você passa uma variável **Value Type** para um método, está passando apenas uma cópia do valor. Nesse caso, ao alterar o valor dentro do método, o valor original não é afetado, pois a alteração está restrita ao escopo do método.
+[1. Qual a diferença entre _"Value Types"_ e _"Reference Types"_ em C#?](docs/fundamentos-de-csharp-e-dotnet/01-qual-a-diferença-entre-Value-Types-e-Reference-Types.md)
 
-> Já as variáveis **Reference Types** (ex: `class`, `string`, `object`) possuem uma referência para seus valores, que são alocados na memória Heap.
-A nível de código, quando você passa uma variável **Reference Type** para múltiplos métodos, todos os escopos estarão observando a mesma instância. Caso uma alteração seja feita, todos os métodos estarão lidando com o objeto já alterado.
+[2. O que é **Boxing** e **Unboxing**?](docs/fundamentos-de-csharp-e-dotnet/02-O-que-e-Boxing-e-Unboxing.md)
 
-[## 5. O que é **Boxing** e **Unboxing**?](docs/fundamentos-de-csharp-e-dotnet/05-O-que-e-Boxing-e-Unboxing.md)
-
-[## 19. Diferença entre `==` e `.Equals()`](docs/fundamentos-de-csharp-e-dotnet/19-diferenca-entre-operator-equal-e-method-equals.md)
+[19. Diferença entre `==` e `.Equals()`](docs/fundamentos-de-csharp-e-dotnet/19-diferenca-entre-operator-equal-e-method-equals.md)
