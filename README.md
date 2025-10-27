@@ -2,7 +2,7 @@
 
 ## Como utilizar IA
 
-[1. Tabela sugestiva para uso de IA](docs\como-utilizar-ia\Tabela-sugestiva-para-uso-de-IA.md)
+[1. Tabela sugestiva para uso de IA](docs/como-utilizar-ia/Tabela-sugestiva-para-uso-de-IA.md)
 
 ## 1. Fundamentos de C# e .NET
 
