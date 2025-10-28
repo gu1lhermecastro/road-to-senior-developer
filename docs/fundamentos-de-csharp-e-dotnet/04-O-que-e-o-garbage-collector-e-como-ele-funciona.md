@@ -1,4 +1,4 @@
-## 4. O que é o _**garbage collector**_ e como ele funciona?
+# 4. O que é o _**garbage collector**_ e como ele funciona?
 
 🔹 O **Garbage Collector (GC)** é um **mecanismo automático de gerenciamento de memória** do .NET.
 Ele é responsável por **liberar o espaço na memória Heap** que não está mais sendo usado por nenhum objeto ativo.
@@ -12,7 +12,7 @@ Isso deixa a Heap **contígua** e melhora o desempenho de alocação (menos frag
 
 Esse processo é chamado de **compaction**.
 
-### 🧩 Exemplo prático
+## 🧩 Exemplo prático
 
 ```csharp
 void CriarObjetos()
@@ -29,7 +29,7 @@ void CriarObjetos()
 - Quando o método termina, **nenhum deles é mais referenciado**.
 - Em algum momento, o GC percebe isso e **libera automaticamente** essa memória.
 
-### 🌎 Exemplo de problema real que o GC ajuda a evitar
+## 🌎 Exemplo de problema real que o GC ajuda a evitar
 
 Imagine um sistema que faz upload de imagens e cria vários objetos temporários em memória.
 Sem GC, você precisaria liberar manualmente cada objeto (como `Dispose()` ou `free()` em C).<br>
@@ -37,7 +37,7 @@ Um descuido poderia causar **memory leaks**, travamentos e lentidão.
 
 Com o GC, objetos não referenciados são liberados automaticamente, reduzindo muito esse tipo de bug.
 
-### ⚙️ Como ele funciona — visão geral
+## ⚙️ Como ele funciona — visão geral
 
 1. **Você cria objetos** → o .NET aloca esses objetos na **Heap gerenciada**.
 2. **O GC** monitora quais objetos ainda têm **referências vivas**.
@@ -50,7 +50,7 @@ Com o GC, objetos não referenciados são liberados automaticamente, reduzindo m
 
 Conceito de Generations (Gerações)
 
-### ⚙️ O GC organiza a memória Heap em 3 gerações:
+## ⚙️ O GC organiza a memória Heap em 3 gerações:
 
 Geração	Descrição	Tamanho típico	O que armazena
 | Geração   | Descrição             | Tamanho típico | O que armazena                                   |
@@ -59,7 +59,7 @@ Geração	Descrição	Tamanho típico	O que armazena
 | **Gen 1** | Intermediária         | média          | Objetos que sobreviveram a algumas coletas       |
 | **Gen 2** | Longa duração         | grande         | Objetos “antigos” (ex: caches, singletons, etc.) |
 
-### ⚙️ Como o GC detecta objetos “mortos”
+## ⚙️ Como o GC detecta objetos “mortos”
 
 Ele segue um **grafo de acessibilidade** a partir das _roots_ (raízes):
 

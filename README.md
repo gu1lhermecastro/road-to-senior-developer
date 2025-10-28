@@ -16,4 +16,6 @@
 
 [6. Como o `using` funciona internamente?](docs/fundamentos-de-csharp-e-dotnet/06-Como-o-using-funciona-internamente.md)
 
+[10. O que é `record` e quando usá-lo?](docs/fundamentos-de-csharp-e-dotnet/10-O-que-e-record-e-quando-usalo.md)
+
 [19. Diferença entre `==` e `.Equals()`](docs/fundamentos-de-csharp-e-dotnet/19-diferenca-entre-operator-equal-e-method-equals.md)
