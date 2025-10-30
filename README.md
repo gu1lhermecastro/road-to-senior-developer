@@ -18,6 +18,8 @@
 
 [8. O que é _Nullable Reference Types_ e como habilitar?](docs/fundamentos-de-csharp-e-dotnet/08-O-que-e-Nullable-Reference-Types-e-como-habilitar.md)
 
+[9. Diferença entre `const`, `readonly` e `static readonly`.](docs/fundamentos-de-csharp-e-dotnet/09-Diferenca-entre-const-readonly-e-static-readonly.md)
+
 [10. O que é `record` e quando usá-lo?](docs/fundamentos-de-csharp-e-dotnet/10-O-que-e-record-e-quando-usalo.md)
 
 [19. Diferença entre `==` e `.Equals()`](docs/fundamentos-de-csharp-e-dotnet/19-diferenca-entre-operator-equal-e-method-equals.md)
